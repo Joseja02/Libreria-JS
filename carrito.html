@@ -8,7 +8,7 @@
   en nuestra tienda online: novelas, ciencia ficción, aprendizaje y más. Encuentra los best-sellers de la semana, autores destacados
   y promociones exclusivas. Tienda de Libros: calidad y cultura a tu alcance.">
   <meta name="robots" content="index, follow">
-  <title>Página Principal - Tienda de Libros</title>
+  <title>Carrito - Libreria JS</title>
   <link rel="stylesheet" href="estilos.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet"
@@ -175,37 +175,13 @@
 
   <div class="container">
     <main class="container my-5">
-      <h1 class="mb-4">🛒 Tu Carrito</h1>
-
-      <section class="row">
+      <section class="row p-4">
         <!-- Productos en carrito -->
-        <div class="col-lg-8">
+        <div class="col-lg-8 bg-white border p-4">
           <div id="carrito" class="list-group">
 
             <h3>🛒 Carrito (<span id="cant">0</span>)</h3>
             <ul id="lista" class="overflow-auto"></ul>
-            <p>Subtotal: <span id="sub">0,00</span> €</p>
-            <p>IVA (21 %): <span id="iva">0,00</span> €</p>
-            <p><strong>Total: <span id="tot">0,00</span> €</strong></p>
-
-
-
-            <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-              <div class="d-flex align-items-center gap-3">
-                <img src="recursos/aloe.jpg" alt="Aloe Vera" class="img-thumbnail" style="width: 80px; height: auto;">
-                <div>
-                  <h5 class="mb-1">Aloe Vera</h5>
-                  <small>6,50 € / unidad</small>
-                  <ul id="lista" class="overflow-auto"></ul>
-                </div>
-              </div>
-              <div class="d-flex align-items-center gap-3">
-                <input type="number" value="1" min="1" class="form-control form-control-sm" style="width: 70px;">
-                <span class="fw-bold">6,50 €</span>
-                <button class="btn btn-outline-danger btn-sm" aria-label="Eliminar del carrito"><i
-                    class="bi bi-trash"></i></button>
-              </div>
-            </div>
           </div>
 
           <div class="mt-4">
@@ -220,44 +196,48 @@
               <h4 class="card-title">Resumen</h4>
               <ul class="list-group list-group-flush mb-3">
                 <li class="list-group-item d-flex justify-content-between">
-                  <span>Subtotal</span><span id="resumen-subtotal">0,00 €</span>
+                  <span>Subtotal</span><div><span id="sub">0,00 €</span>€</div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between">
-                  <span>IVA (21 %)</span><span id="resumen-iva">0,00 €</span>
+                  <span>IVA (21 %)</span><div><span id="iva">0,00 €</span>€</div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between fw-bold">
-                  <span>Total</span><span id="resumen-total">0,00 €</span>
+                  <span>Total</span><div><span id="tot">0,00 €</span>€</div>
                 </li>
               </ul>
-              <a href="checkout.html" class="btn btn-success w-100">Finalizar compra</a>
+              <a href="#" class="btn boton-cta w-100">Finalizar compra</a>
             </div>
           </div>
         </aside>
       </section>
     </main>
+    <canvas class="textoCanvas" id="graciasCanvas" width="1100"></canvas>
   </div>
+  
+  
 
-  <footer>
-    <div class="footer-contact">
-      <h3>Contacto</h3>
-      <p><i class="bi bi-telephone-fill"></i></i> (+34) 666 11 22 33</p>
-      <p><i class="bi bi-geo-alt-fill"></i> Finca Santa Isabel, s/n 04008 - Almería (España)</p>
-      <p><i class="bi bi-envelope-fill"></i> nuestratienda@gmail.com</p>
-      <p><i class="bi bi-clock-fill"></i> Lunes a Viernes de 10:00 a 14:00 y de 17:00 a 20:00 <br> Sábados de
-        10:00 a 13:00 <br> Domingos y festivos: cerrados</p>
-    </div>
-    <div class="footer-social">
-      <h3>Redes Sociales</h3>
-      <p><i class="bi bi-twitter"></i> @nuestratienda</p>
-      <p><i class="bi bi-facebook"></i> Nuestra tienda</p>
-      <p><i class="bi bi-instagram"></i> nuestra_tienda</p>
-      <p><i class="bi bi-whatsapp"></i> (+34) 666 11 22 33</p>
-    </div>
+    <footer>
+        <div class="footer-contact">
+            <h3>Contacto</h3>
+            <p><i class="bi bi-telephone-fill"></i></i> (+34) 666 11 22 33</p>
+            <p><i class="bi bi-geo-alt-fill"></i> Finca Santa Isabel, s/n 04008 - Almería (España)</p>
+            <p><i class="bi bi-envelope-fill"></i> libreriajs@gmail.com</p>
+            <p><i class="bi bi-clock-fill"></i> Lunes a Viernes de 10:00 a 14:00 y de 17:00 a 20:00 <br> Sábados de
+                10:00 a 13:00 <br> Domingos y festivos: cerrados</p>
+        </div>
 
-    <div class="footer-rights">
-      <p>&copy; 2024 Jose Javier Sierra Berdún. Todos los derechos reservados.</p>
-    </div>
-  </footer>
+        <div class="footer-social">
+            <h3>Redes Sociales</h3>
+            <p><i class="bi bi-twitter"></i> @Libreria_JS</p>
+            <p><i class="bi bi-facebook"></i> Libreria JS</p>
+            <p><i class="bi bi-instagram"></i> libreria_js</p>
+            <p><i class="bi bi-whatsapp"></i> (+34) 666 11 22 33</p>
+        </div>
+
+        <div class="footer-rights">
+            <p>&copy; 2024 Jose Javier Sierra Berdún. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
   <!-- Para que el script funcione, ocultamos el carrito del movil -->
   <div style="display: none;">
