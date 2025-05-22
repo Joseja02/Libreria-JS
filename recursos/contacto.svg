@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svg-icon"
+   style="overflow:hidden;fill:currentColor"
+   viewBox="0 0 768.06024 1023.995"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="contacto.svg"
+   width="768.06024"
+   height="1023.995"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.78808594"
+     inkscape:cx="383.84139"
+     inkscape:cy="512"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 384.06208,567.86916 c 105.88752,0 191.99904,-86.14357 191.99904,-191.99904 0,-105.85547 -86.11162,-191.99904 -191.99904,-191.99904 -105.88752,0 -191.99904,86.11162 -191.99904,191.99904 0,105.88742 86.11162,191.99904 191.99904,191.99904 z m 0,-351.99824 c 88.25556,0 159.9992,71.74364 159.9992,159.9992 0,88.25556 -71.74364,159.9992 -159.9992,159.9992 -88.25556,0 -159.9992,-71.74364 -159.9992,-159.9992 0,-88.25556 71.74364,-159.9992 159.9992,-159.9992 z M 383.99808,0 C 172.22314,0 0,170.11115 0,384.03013 c 0,223.99888 192.03109,453.14979 332.03034,614.20493 0.512,0.64 22.97589,25.75994 50.75175,25.75994 0.064,0 2.33604,0 2.46403,0 27.74392,0 50.23975,-25.11994 50.75175,-25.75994 C 576.06122,837.17981 768.06026,608.06096 768.06026,384.03013 768.06026,170.11115 595.80507,0 383.99818,0 Z m 3.74403,956.25127 c -0.67205,0.64 -2.62399,2.04799 -4.32003,3.13598 -0.32,-0.86404 -2.68799,-2.75198 -4.12803,-4.25603 C 262.01459,820.18785 63.99958,592.44504 63.99958,384.03003 c 0,-176.44712 143.58333,-320.030453 319.9984,-320.030453 176.51111,0 320.0624,143.583333 320.0624,320.062403 0,208.38296 -198.01501,436.12587 -316.31847,572.18919 z"
+     id="path1" />
+</svg>
