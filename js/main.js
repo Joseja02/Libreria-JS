@@ -13,8 +13,6 @@ let velocidad = 1.2;
 // EVENTOS ON-LOAD
 window.onload = observer;
 
-// EVENT LISTENERS
-
 // Cuando el puntero entra, se añade la clase animar-letras al texto, lo que activa la animación. Y cuando se sale, se elimina.
 logo.addEventListener("mouseenter", () => {
     libreriaJS.classList.add("animar-letras");
@@ -75,6 +73,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     scrollArribaBtn.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    scrollArribaBtn.addEventListener('touchend', function () {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
