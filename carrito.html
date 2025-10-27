@@ -177,14 +177,14 @@
     <main class="container my-5">
       <section class="row p-4">
         <!-- Productos en carrito -->
-        <div class="col-lg-8 bg-white border p-4">
-          <div id="carrito" class="list-group">
+        <div class="col-lg-8 bg-white border p-4 carrito-main-content d-flex flex-column">
+          <div id="carrito" class="list-group flex-grow-1">
 
             <h3>🛒 Carrito (<span id="cant">0</span>)</h3>
             <ul id="lista" class="overflow-auto"></ul>
           </div>
 
-          <div class="mt-4">
+          <div class="mt-auto">
             <button id="vaciar" class="btn btn-danger">Vaciar carrito</button>
           </div>
         </div>

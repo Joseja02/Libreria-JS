@@ -854,3 +854,10 @@ footer i {
         padding: 1em;
     }
 }
+
+/* Estilos para el botón del carrito */
+.carrito-main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
